@@ -181,36 +181,36 @@ footer p {
 
 /***  INSTRUCTIONS:*/
 /* - The form will have 45px of space above and below. */
-form {
+/* form {
   margin: 45px 0px;
-  /* text-align: right; */
-}
+  /* text-align: right;
+} */
 .button-div {
   text-align: right;
 }
 /* - Labels will have a display property of block, be bold, and centered. */
-label {
+/* label {
   display: block;
   font-weight: bold;
   text-align: center;
-}
+} */
 /* - Input fields will be 100px wide. */
-input {
+/* input {
   width: 100px;
-}
+} */
 .form_div {
   gap: 15px;
 }
 /* - There will be 15px of space between each day. */
 /* - The button will be 21px tall and the same width as the input boxes (HINT: use the element inspector in your browser). */
-button {
+/* button {
   height: 21px;
   width: 100px;
   margin-top: 30px;
   border: black solid 1px;
   background: white;
   border-radius: 4px;
-}
+} */
 button:hover {
   background: gray;
 }
@@ -221,3 +221,32 @@ button:hover {
 /* - The button will use the same font as the body. */
 
 /*** INSERT YOUR WORK BELOW: ***/
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  font-size: 20px;
+}
+.form-labels {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+footer {
+  text-align: center;
+}
+
+.timesheet-content div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.inputs {
+  align-items: start;
+  row-gap: 18px;
+}
+.form-button{
+width: 100%;
+}
