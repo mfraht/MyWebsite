@@ -17,8 +17,9 @@
   <body>
     <header>
       <div class="fixed-width flex">
-        <img src="images/logo.jpg" alt="widget logo" />
-        <h1>Mohamed Ibrahim</h1>
+          <img src="images/logo.jpg" alt="widget logo" />
+          <h1>Mohamed Ibrahim</h1>
+
         <nav>
           <h2 class="hidden">nav</h2>
           <ul class="flex">
@@ -33,28 +34,39 @@
       <section class="timesheet-content">
         <h2>Contact me</h2>
         <form action="#">
-        <section class="form-labels">
-          <div>
-            <label for="email">Your email:</label>
-            <label for="name">Your Name:</label>
-            <label for="message" class="texera-lable">Your Message:</label>
+          <section class="form-labels">
+            <div>
+              <label for="email">Your email:</label>
+              <label for="name">Your Name:</label>
+              <label for="message" class="texera-lable">Your Message:</label>
+            </div>
+            <div class="inputs">
+              <input type="text" id="name" name="name" />
+              <input type="email" id="email" name="email" />
+              <textarea
+                name="message"
+                id="message"
+                cols="15"
+                rows="5"
+              ></textarea>
+            </div>
+          </section>
+          <div class="form-button">
+            <button type="submit">Submit</button>
           </div>
-          <div class="inputs">
-            <input type="text" id="name" name="name" />
-            <input type="email" id="email" name="email" />
-            <textarea name="message" id="message" cols="15" rows="5"></textarea>
-          </div>
-        </section>
-        <div class="form-button">
-          <button type="submit">Submit</button>
-        </div>
-        
-      </form>
+        </form>
+      </section>
     </main>
     <footer>
       <hr />
-      <h3>Mohamed Ibrahim</h3>
-      <a href="#">My facebook</a>
+      <p>Mohamed Ibrahim 2023</p>
+      <a
+        href="https://www.linkedin.com/in/mfarhatibrahim/"
+        title="widget icons"
+        target="_blank"
+      >
+        Follow me on Linkedin</a
+      >
     </footer>
   </body>
 </html>
